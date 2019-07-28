@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<vc:ads></vc:ads>
+
+@{
+    string[] names1 = new string[] { "ali", "ahmad" };
+}
+<user-check names="@names1"></user-check>
+
+@{
+    string[] names2 = new string[] { "ali", "ahmad","lotfi" };
+}
+<user-check names="@names2"></user-check>
